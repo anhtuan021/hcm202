@@ -19,7 +19,7 @@ const FeatureCard = ({
 export default function About() {
   return (
     <div className="relative min-h-screen bg-fixed bg-no-repeat bg-center"
-      style={{ backgroundImage: "url('/client/images/hcm4.webp')" ,backgroundSize: "1700px",}}
+      style={{ backgroundImage: "url('/public/images/hcm4.webp')" ,backgroundSize: "1700px",}}
     >
       {/* Overlay làm nhạt ảnh nền */}
       <div className="absolute inset-0 bg-white/50 backdrop-blur-sm" />

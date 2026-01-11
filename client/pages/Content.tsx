@@ -15,7 +15,7 @@ const BulletPoint = ({ children }: { children: React.ReactNode }) => (
 export default function Content() {
   return (
     <div className="relative min-h-screen bg-fixed bg-no-repeat bg-center"
-      style={{ backgroundImage: "url('/client/images/hcm2.jpg')" ,backgroundSize: "1700px",}}
+      style={{ backgroundImage: "url('/public/images/hcm2.jpg')" ,backgroundSize: "1700px",}}
     >
       {/* Overlay làm nhạt ảnh nền */}
       <div className="absolute inset-0 bg-white/50 backdrop-blur-sm" />
