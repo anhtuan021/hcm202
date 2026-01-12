@@ -6,7 +6,7 @@ const BulletPoint = ({ children }: { children: React.ReactNode }) => (
     <div className="flex-shrink-0 mt-1.5">
       <div className="w-2 h-2 rounded-full bg-secondary" />
     </div>
-    <div className="text-sm sm:text-xl text-foreground/80 leading-relaxed">
+    <div className="text-sm sm:text-xl text-foreground font-semibold leading-relaxed">
       {children}
     </div>
   </div>
@@ -36,7 +36,7 @@ export default function Introduction() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight">
               CHƯƠNG III. TƯ TƯỞNG HCM VỀ ĐỘC LẬP DÂN TỘC VÀ CNXH
             </h1>
-            <p className="text-base sm:text-2xl text-foreground/60 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-2xl text-foreground font-semibold max-w-3xl mx-auto leading-relaxed">
               Khám phá tư tưởng Hồ Chí Minh về độc lập dân tộc gắn liền với chủ
               nghĩa xã hội – con đường bảo đảm tự do, hạnh phúc cho toàn dân,
               chứ không chỉ cho một giai cấp hay nhóm lợi ích riêng lẻ.
@@ -61,7 +61,7 @@ export default function Introduction() {
                   <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-1">
                     1. Vấn đề độc lập dân tộc
                   </h2>
-                  <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                  <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                     <strong>
                       {" "}
                       A. Độc lập, tự do là quyền thiêng liêng của mọi dân tộc
@@ -82,7 +82,7 @@ export default function Introduction() {
                     của dân tộc Việt Nam; tư tưởng này xuyên suốt toàn bộ hoạt
                     động cách mạng của Người.
                   </BulletPoint>
-                  <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                  <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                     <strong>
                       {" "}
                       B. Độc lập dân tộc gắn liền với tự do, hạnh phúc của nhân
@@ -103,7 +103,7 @@ export default function Introduction() {
                     no của nhân dân, coi đó là mục tiêu cao nhất của cách mạng
                     Việt Nam.
                   </BulletPoint>
-                  <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                  <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                     <strong>
                       {" "}
                       C. Độc lập dân tộc phải thật sự, hoàn toàn và triệt để
@@ -122,7 +122,7 @@ export default function Introduction() {
                     Minh linh hoạt ký Hiệp định Sơ bộ (6/3/1946) để khẳng định
                     tư cách quốc gia độc lập của Việt Nam.
                   </BulletPoint>
-                  <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                  <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                     <strong>
                       {" "}
                       D. Độc lập dân tộc gắn liền với thống nhất và toàn vẹn
@@ -144,7 +144,7 @@ export default function Introduction() {
                   <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-1">
                     2. Về CM giải phóng dân tộc
                   </h2>
-                  <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                  <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                     <strong>
                       {" "}
                       A. CM giải phóng dân tộc muốn thắng lợi phải đi theo con
@@ -168,7 +168,7 @@ export default function Introduction() {
                           <td className="px-6 py-5 text-xl font-semibold text-primary">
                             Mác & Ăngghen
                           </td>
-                          <td className="px-6 py-5 text-xl text-foreground/80 leading-relaxed">
+                          <td className="px-6 py-5 text-xl text-foreground leading-relaxed">
                             Giải phóng giai cấp → Giải phóng dân tộc → Giải
                             phóng xã hội → Giải phóng con người
                           </td>
@@ -177,7 +177,7 @@ export default function Introduction() {
                           <td className="px-6 py-5 text-lg font-semibold text-primary">
                             Hồ Chí Minh
                           </td>
-                          <td className="px-6 py-5 text-xl text-foreground/80 leading-relaxed">
+                          <td className="px-6 py-5 text-xl text-foreground leading-relaxed">
                             Giải phóng dân tộc → Giải phóng xã hội → Giải phóng
                             giai cấp → Giải phóng con người
                           </td>
@@ -186,7 +186,7 @@ export default function Introduction() {
                           <td className="px-6 py-5 text-lg font-semibold text-primary">
                             Quốc tế Cộng sản
                           </td>
-                          <td className="px-6 py-5 text-xl text-foreground/80 leading-relaxed">
+                          <td className="px-6 py-5 text-xl text-foreground leading-relaxed">
                             Chống đế quốc và chống phong kiến phải được thực
                             hiện đồng thời, khăng khít với nhau, nương tựa vào
                             nhau.
@@ -196,7 +196,7 @@ export default function Introduction() {
                           <td className="px-6 py-5 text-lg font-semibold text-primary">
                             Hồ Chí Minh
                           </td>
-                          <td className="px-6 py-5 text-xl text-foreground/80 leading-relaxed">
+                          <td className="px-6 py-5 text-xl text-foreground leading-relaxed">
                             Đặt lên hàng đầu nhiệm vụ chống đế quốc, giải phóng
                             dân tộc; nhiệm vụ chống phong kiến, mang lại ruộng
                             đất cho nông dân được thực hiện từng bước phù hợp.
@@ -205,7 +205,7 @@ export default function Introduction() {
                       </tbody>
                     </table>
                   </div>
-                  <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                  <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                     <strong>
                       {" "}
                       B. Cách mạng giải phóng dân tộc ở Việt Nam phải do Đảng
@@ -224,7 +224,7 @@ export default function Introduction() {
                     Đảng vừa mang bản chất giai cấp công nhân, vừa là Đảng của
                     nhân dân lao động và dân tộc Việt Nam.
                   </BulletPoint>
-                  <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                  <p className="sm:text-2xl text-foreground text-base leading-relaxed">
                     <strong>
                       {" "}
                       C. Cách mạng giải phóng dân tộc dựa vào đại đoàn kết toàn
@@ -245,7 +245,7 @@ export default function Introduction() {
                     Đại đoàn kết toàn dân thể hiện ở chủ trương toàn dân kháng
                     chiến, bảo vệ Tổ quốc.
                   </BulletPoint>
-                  <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                  <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                     <strong>
                       {" "}
                       D. Cách mạng giải phóng dân tộc cần chủ động, sáng tạo
@@ -263,7 +263,7 @@ export default function Introduction() {
                     các dân tộc thuộc địa có tinh thần đấu tranh mạnh mẽ, khi
                     được giác ngộ sẽ trở thành lực lượng cách mạng to lớn.
                   </BulletPoint>
-                  <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                  <p className="sm:text-2xl text-foreground text-base leading-relaxed">
                     <strong>
                       {" "}
                       E. Cách mạng giải phóng dân tộc phải tiến hành bằng bạo

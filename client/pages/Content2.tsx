@@ -6,7 +6,7 @@ const BulletPoint = ({ children }: { children: React.ReactNode }) => (
     <div className="flex-shrink-0 mt-1.5">
       <div className="w-2 h-2 rounded-full bg-secondary" />
     </div>
-    <div className="text-sm sm:text-xl text-foreground/80 leading-relaxed">
+    <div className="text-sm sm:text-xl text-foreground font-semibold leading-relaxed">
       {children}
     </div>
   </div>

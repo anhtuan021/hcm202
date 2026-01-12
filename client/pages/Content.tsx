@@ -6,7 +6,7 @@ const BulletPoint = ({ children }: { children: React.ReactNode }) => (
     <div className="flex-shrink-0 mt-1.5">
       <div className="w-2 h-2 rounded-full bg-secondary" />
     </div>
-    <div className="text-sm sm:text-xl text-foreground/80 leading-relaxed">
+    <div className="text-sm sm:text-xl text-foreground font-semibold leading-relaxed">
       {children}
     </div>
   </div>
@@ -43,7 +43,7 @@ export default function Content() {
                 <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-1">
                   1. Tư tưởng HCM về CNXH
                 </h2>
-                <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                   <strong> A. Quan niệm của HCM về CNXH</strong>
                 </p>
 
@@ -71,7 +71,7 @@ export default function Content() {
                           Giống nhau
                         </td>
                         <td
-                          className="px-6 py-5 text-lg text-foreground/80 leading-relaxed"
+                          className="px-6 py-5 text-lg text-foreground leading-relaxed"
                           colSpan={2}
                         >
                           Sức sản xuất phát triển cao, tư liệu sản xuất thuộc sở
@@ -82,17 +82,17 @@ export default function Content() {
                         <td className="px-6 py-5 text-lg font-semibold text-primary">
                           Khác nhau
                         </td>
-                        <td className="px-6 py-5 text-lg text-foreground/80 leading-relaxed">
+                        <td className="px-6 py-5 text-lg text-foreground leading-relaxed">
                           Vẫn còn tồn tại một số vết tích của xã hội cũ.
                         </td>
-                        <td className="px-6 py-5 text-lg text-foreground/80 leading-relaxed">
+                        <td className="px-6 py-5 text-lg text-foreground leading-relaxed">
                           Hoàn toàn không còn bất kỳ vết tích nào của xã hội cũ.
                         </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
-                <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                   <strong>
                     {" "}
                     B. Tiến lên CNXH là tất yếu khách quan
@@ -104,7 +104,7 @@ export default function Content() {
                 <BulletPoint>
                   Tùy điều kiện lịch sử, mỗi quốc gia có con đường và bước đi khác nhau: các nước tư bản phát triển đi thẳng lên CNXH; các nước chưa phát triển tư bản có thể tiến lên CNXH sau khi đánh đổ đế quốc và phong kiến.
                 </BulletPoint>
-                <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                   <strong>
                     {" "}
                     C. Một số đặc trưng cơ bản của xã hội CNXH
@@ -122,7 +122,7 @@ export default function Content() {
                 <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-1">
                   2. Tư tưởng HCM về xây dựng CNXH ở VN
                 </h2>
-                <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
                   <strong>
                     {" "}
                     A. Tính chất, đặc điểm và nhiệm vụ của thời kỳ quá độ
@@ -150,7 +150,7 @@ export default function Content() {
                 </BulletPoint>
                  </BulletPoint>
                 
-                <p className="sm:text-2xl text-foreground/75 text-base leading-relaxed">
+                <p className="sm:text-2xl text-foreground text-base leading-relaxed">
                   <strong>
                     {" "}
                     B. Nguyên tắc xây dựng CNXH trong thời kỳ quá độ
