@@ -6,7 +6,7 @@ const BulletPoint = ({ children }: { children: React.ReactNode }) => (
     <div className="flex-shrink-0 mt-1.5">
       <div className="w-2 h-2 rounded-full bg-secondary" />
     </div>
-    <div className="text-sm sm:text-xl text-foreground font-semibold leading-relaxed">
+    <div className="text-lg text-foreground font-semibold leading-relaxed">
       {children}
     </div>
   </div>
@@ -34,13 +34,13 @@ export default function Content2() {
                   📚
                 </div>
                 <div>
-                  <p className="text-sm sm:text-4xl font-bold text-secondary uppercase tracking-wide">
+                  <p className="text-sm sm:text-3xl font-bold text-secondary uppercase tracking-wide">
                     III. Tư tưởng HCM về mối quan hệ giữa độc lập dân tộc và CN xã hội
                   </p>
                 </div>
               </div>
               <div className="pl-0 sm:pl-18 space-y-4">
-                <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-1">
+                <h2 className="text-3xl sm:text-3xl font-bold text-primary mt-1">
                  1. Độc lập dân tộc là tiền đề để tiến lên CNXH
                 </h2>
             
@@ -54,7 +54,7 @@ export default function Content2() {
                 </BulletPoint><BulletPoint>
                   Cách mạng giải phóng dân tộc Việt Nam đi theo con đường cách mạng vô sản, mang bản chất và định hướng xã hội chủ nghĩa.
                 </BulletPoint>
-                <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-1">
+                <h2 className="text-3xl sm:text-3xl font-bold text-primary mt-1">
                2. CNXH là điều kiện bảo đảm độc lập dân tộc vững chắc
                 </h2>
             
@@ -66,7 +66,7 @@ export default function Content2() {
                 </BulletPoint><BulletPoint>
                   Tạo nền tảng kinh tế, văn hóa, đạo đức phát triển, bảo vệ độc lập và thúc đẩy đất nước.
                 </BulletPoint>
-                 <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-1">
+                 <h2 className="text-3xl sm:text-3xl font-bold text-primary mt-1">
              3. Điều kiện bảo đảm độc lập dân tộc gắn liền với CNXH
                 </h2>
             
@@ -86,7 +86,7 @@ export default function Content2() {
                   📚
                 </div>
                 <div>
-                  <p className="text-sm sm:text-4xl font-bold text-secondary uppercase tracking-wide">
+                  <p className="text-sm sm:text-3xl font-bold text-secondary uppercase tracking-wide">
                     IV. Vận dụng tư tưởng HCM về độc lập dân tộc gắn liền với CNXH trong sự nghiệp CM VN giai đoạn hiện nay
                   </p>
                 </div>

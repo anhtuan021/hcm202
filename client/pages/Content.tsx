@@ -6,7 +6,7 @@ const BulletPoint = ({ children }: { children: React.ReactNode }) => (
     <div className="flex-shrink-0 mt-1.5">
       <div className="w-2 h-2 rounded-full bg-secondary" />
     </div>
-    <div className="text-sm sm:text-xl text-foreground font-semibold leading-relaxed">
+    <div className="text-lg text-foreground font-semibold leading-relaxed">
       {children}
     </div>
   </div>
@@ -34,16 +34,16 @@ export default function Content() {
                   📚
                 </div>
                 <div>
-                  <p className="text-sm sm:text-4xl font-bold text-secondary uppercase tracking-wide">
+                  <p className="text-sm sm:text-3xl font-bold text-secondary uppercase tracking-wide">
                     II. Tư tưởng HCM về CNXH và xây dựng CNXH ở VN
                   </p>
                 </div>
               </div>
               <div className="pl-0 sm:pl-18 space-y-4">
-                <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-1">
+                <h2 className="text-3xl sm:text-3xl font-bold text-primary mt-1">
                   1. Tư tưởng HCM về CNXH
                 </h2>
-                <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
+                <p className="sm:text-xl text-foreground  text-base leading-relaxed">
                   <strong> A. Quan niệm của HCM về CNXH</strong>
                 </p>
 
@@ -92,7 +92,7 @@ export default function Content() {
                     </tbody>
                   </table>
                 </div>
-                <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
+                <p className="sm:text-xl text-foreground  text-base leading-relaxed">
                   <strong>
                     {" "}
                     B. Tiến lên CNXH là tất yếu khách quan
@@ -104,7 +104,7 @@ export default function Content() {
                 <BulletPoint>
                   Tùy điều kiện lịch sử, mỗi quốc gia có con đường và bước đi khác nhau: các nước tư bản phát triển đi thẳng lên CNXH; các nước chưa phát triển tư bản có thể tiến lên CNXH sau khi đánh đổ đế quốc và phong kiến.
                 </BulletPoint>
-                <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
+                <p className="sm:text-xl text-foreground  text-base leading-relaxed">
                   <strong>
                     {" "}
                     C. Một số đặc trưng cơ bản của xã hội CNXH
@@ -119,10 +119,10 @@ export default function Content() {
                 <BulletPoint>
                   Xây dựng CNXH là sự nghiệp của nhân dân dưới sự lãnh đạo của Đảng Cộng sản.
                 </BulletPoint>
-                <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-1">
+                <h2 className="text-3xl sm:text-3xl font-bold text-primary mt-1">
                   2. Tư tưởng HCM về xây dựng CNXH ở VN
                 </h2>
-                <p className="sm:text-2xl text-foreground  text-base leading-relaxed">
+                <p className="sm:text-xl text-foreground  text-base leading-relaxed">
                   <strong>
                     {" "}
                     A. Tính chất, đặc điểm và nhiệm vụ của thời kỳ quá độ
@@ -150,7 +150,7 @@ export default function Content() {
                 </BulletPoint>
                  </BulletPoint>
                 
-                <p className="sm:text-2xl text-foreground text-base leading-relaxed">
+                <p className="sm:text-xl text-foreground text-base leading-relaxed">
                   <strong>
                     {" "}
                     B. Nguyên tắc xây dựng CNXH trong thời kỳ quá độ
