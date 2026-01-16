@@ -27,7 +27,7 @@ export default function Header() {
                   : "text-muted-foreground hover:text-foreground hover:bg-primary/5"
               }`}
             >
-              Mở Đầu
+              Tư tưởng về độc lập dân tộc
             </Link>
             <Link
               to="/content"
@@ -37,7 +37,7 @@ export default function Header() {
                   : "text-muted-foreground hover:text-foreground hover:bg-primary/5"
               }`}
             >
-              Nội Dung
+              Tư tưởng về CNXH
             </Link>
             <Link
               to="/content2"
@@ -47,7 +47,7 @@ export default function Header() {
                   : "text-muted-foreground hover:text-foreground hover:bg-primary/5"
               }`}
             >
-              Nội dung 2
+              Độc lập & CNXH – Mối quan hệ
             </Link>
             <Link
               to="/about"
