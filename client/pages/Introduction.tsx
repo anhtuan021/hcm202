@@ -60,7 +60,7 @@ export default function Introduction() {
 
                 {/* A. Card */}
                 <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6 mb-6 animate-fadeInLeft" style={{ animation: 'fadeInLeft 1s ease-out 0.4s both' }}>
-                  <h4 className="text-lg font-semibold text-blue-800 mb-4">A. Độc lập, tự do là quyền thiêng liêng của mọi dân tộc</h4>
+                  <h4 className="text-lg font-semibold text-blue-800 mb-4">a. Độc lập, tự do là quyền thiêng liêng của mọi dân tộc</h4>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-3 animate-fadeIn" style={{ animation: 'fadeIn 0.8s ease-out 0.6s both' }}>
                       <svg className="w-5 h-5 text-blue-500 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -85,7 +85,7 @@ export default function Introduction() {
 
                 {/* B. Card */}
                 <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6 mb-6 animate-fadeInRight" style={{ animation: 'fadeInRight 1s ease-out 0.4s both' }}>
-                  <h4 className="text-lg font-semibold text-green-800 mb-4">B. Độc lập dân tộc gắn liền với tự do, hạnh phúc của nhân dân</h4>
+                  <h4 className="text-lg font-semibold text-green-800 mb-4">b. Độc lập dân tộc gắn liền với tự do, hạnh phúc của nhân dân</h4>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-3 animate-fadeIn" style={{ animation: 'fadeIn 0.8s ease-out 0.6s both' }}>
                       <svg className="w-5 h-5 text-green-500 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -104,7 +104,7 @@ export default function Introduction() {
 
                 {/* C. Card */}
                 <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6 animate-fadeInLeft" style={{ animation: 'fadeInLeft 1s ease-out 0.4s both' }}>
-                  <h4 className="text-lg font-semibold text-purple-800 mb-4">C. Độc lập dân tộc phải thật sự, hoàn toàn và triệt để</h4>
+                  <h4 className="text-lg font-semibold text-purple-800 mb-4">c. Độc lập dân tộc phải thật sự, hoàn toàn và triệt để</h4>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-3 animate-fadeIn" style={{ animation: 'fadeIn 0.8s ease-out 0.6s both' }}>
                       <svg className="w-5 h-5 text-purple-500 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
@@ -141,7 +141,7 @@ export default function Introduction() {
             <div className="space-y-12">
               {/* A. Table Modernized */}
               <div>
-                <h3 className="text-xl lg:text-2xl font-semibold text-gray-800 mb-6">A. CM giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng vô sản</h3>
+                <h3 className="text-xl lg:text-2xl font-semibold text-gray-800 mb-6">a. CM giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng vô sản</h3>
                 <div className="overflow-hidden rounded-2xl border border-gray-200 animate-fadeInLeft" style={{ animation: 'fadeInLeft 1s ease-out 0.4s both' }}>
                   <table className="w-full">
                     <thead className="bg-gradient-to-r from-gray-50 to-gray-100">
@@ -170,7 +170,7 @@ export default function Introduction() {
 
               {/* B. Card */}
               <div>
-                <h3 className="text-xl lg:text-2xl font-semibold text-gray-800 mb-6">B. Cách mạng giải phóng dân tộc ở Việt Nam phải do Đảng Cộng sản lãnh đạo</h3>
+                <h3 className="text-xl lg:text-2xl font-semibold text-gray-800 mb-6">b. Cách mạng giải phóng dân tộc ở Việt Nam phải do Đảng Cộng sản lãnh đạo</h3>
                 <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-2xl p-6 animate-fadeInRight" style={{ animation: 'fadeInRight 1s ease-out 0.4s both' }}>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-3 animate-fadeIn" style={{ animation: 'fadeIn 0.8s ease-out 0.6s both' }}>
@@ -205,23 +205,29 @@ export default function Introduction() {
             </p>
           </section>
 
-          {/* Footer */}
-          <div className="bg-white rounded-2xl shadow-lg p-6 animate-fadeIn" style={{ animation: 'fadeIn 1s ease-out 0.5s both' }}>
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-              <Link
-                to="/content"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-              >
-                Trang tiếp theo
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-              <p className="text-sm text-gray-500">© 2024 Tư Tưởng Hồ Chí Minh - Nhóm 4</p>
-            </div>
+           {/* Navigation Button */}
+          <div className="rounded-2xl p-6 text-center animate-fadeIn" style={{ animation: 'fadeIn 1s ease-out 0.5s both' }}>
+            <Link
+              to="/content"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-green-600 to-teal-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            >
+              Trang tiếp theo
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
           </div>
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className="border-t-2 border-gray-200 bg-gray-50 mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+          <p className="text-gray-600 text-sm font-medium">
+            © 2024 Tư Tưởng Hồ Chí Minh • Độc lập dân tộc gắn liền với chủ nghĩa xã hội
+          </p>
+        </div>
+      </footer>
 
       {/* Custom CSS for animations */}
       <style>{`

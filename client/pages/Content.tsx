@@ -75,7 +75,7 @@ export default function Content() {
           >
             <div>
               <h3 className="text-xl lg:text-2xl font-semibold text-gray-800 mb-6">
-                A. Quan Niệm Của HCM Về CNXH
+                a. Quan Niệm Của HCM Về CNXH
               </h3>
               <div className="space-y-3 mb-6">
                 <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6">
@@ -111,7 +111,7 @@ export default function Content() {
 
             <div className="border-t border-gray-200 pt-8">
               <h3 className="text-xl lg:text-2xl font-semibold text-gray-800 mb-6">
-                B. Tiến Lên CNXH Là Tất Yếu Khách Quan
+                b. Tiến Lên CNXH Là Tất Yếu Khách Quan
               </h3>
               <div className="space-y-3">
                 <BulletPoint>Theo Hồ Chí Minh, tiến lên CNXH là quá trình tất yếu, tuân theo các quy luật khách quan của sản xuất.</BulletPoint>
@@ -121,7 +121,7 @@ export default function Content() {
 
             <div className="border-t border-gray-200 pt-8">
               <h3 className="text-xl lg:text-2xl font-semibold text-gray-800 mb-6">
-                C. Một Số Đặc Trưng Cơ Bản Của Xã Hội CNXH
+                c. Một Số Đặc Trưng Cơ Bản Của Xã Hội CNXH
               </h3>
               <div className="space-y-3">
                 <BulletPoint>Xã hội dân chủ, nhân dân là chủ thể làm chủ.</BulletPoint>
@@ -142,7 +142,7 @@ export default function Content() {
           >
             <div>
               <h3 className="text-xl lg:text-2xl font-semibold text-gray-800 mb-6">
-                A. Tính Chất, Đặc Điểm Và Nhiệm Vụ Của Thời Kỳ Quá Độ
+                a. Tính Chất, Đặc Điểm Và Nhiệm Vụ Của Thời Kỳ Quá Độ
               </h3>
               <div className="space-y-3 mb-6">
                 <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6">
@@ -170,7 +170,7 @@ export default function Content() {
 
             <div className="border-t border-gray-200 pt-8">
               <h3 className="text-xl lg:text-2xl font-semibold text-gray-800 mb-6">
-                B. Nguyên Tắc Xây Dựng CNXH Trong Thời Kỳ Quá Độ
+                b. Nguyên Tắc Xây Dựng CNXH Trong Thời Kỳ Quá Độ
               </h3>
               <div className="space-y-3">
                 <BulletPoint>Kiên định chủ nghĩa Mác – Lênin, độc lập dân tộc gắn với CNXH.</BulletPoint>
@@ -182,7 +182,7 @@ export default function Content() {
           </SectionCard>
 
           {/* Navigation Button */}
-          <div className="bg-white rounded-2xl shadow-lg p-6 text-center animate-fadeIn" style={{ animation: 'fadeIn 1s ease-out 0.5s both' }}>
+          <div className="rounded-2xl p-6 text-center animate-fadeIn" style={{ animation: 'fadeIn 1s ease-out 0.5s both' }}>
             <Link
               to="/content2"
               className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-green-600 to-teal-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
