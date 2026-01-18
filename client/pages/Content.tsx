@@ -79,7 +79,7 @@ export default function Content() {
               </h3>
               <div className="space-y-3 mb-6">
                 <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6">
-                  <h4 className="font-semibold text-blue-800 mb-3">CN xã hội là ở giai đoạn đầu của CN công sản</h4>
+                  <h4 className="font-semibold text-blue-800 mb-3">CN xã hội là ở giai đoạn đầu của CN cộng sản</h4>
                 </div>
               </div>
 
